@@ -9,16 +9,16 @@ const Companies = () => {
             <div className="text-xs">
                 that i have worked with
             </div>
-            <div className="flex-row mt-4 space-y-4">
-                <div className="w-full px-28">
+            <div className="flex flex-col sm:flex-row mt-4 space-y-4 sm:items-center sm:space-y-0">
+                <div className="w-full px-28 sm:px-8">
                     <a href="https://graniteriverlabs.com/">
-                        <img src="images/GRL.png" alt="" className="w-32 h-10 shadow-xl"/>
+                        <img src="images/GRL.png" alt="" className="w-32 h-10 shadow-xl" />
                     </a>
-                    
+
                 </div>
-                <div className="w-full px-28">
+                <div className="w-full px-28 sm:px-8">
                     <a href="https://www.capgemini.com/">
-                    <img src="images/Capgemini.png" alt="" className="w-32 h-10 shadow-xl" />
+                        <img src="images/Capgemini.png" alt="" className="w-32 h-10 shadow-xl" />
                     </a>
                 </div>
             </div>

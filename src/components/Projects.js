@@ -6,19 +6,19 @@ const Projects = () => {
             <div className="text-2xl font-bold text-gray-600">
                 Open Source Projects
             </div>
-            <div className="flex-row mt-4 space-y-4">
-                <div className="px-24">
+            <div className="flex flex-col sm:flex-row mt-4 space-y-4 sm:items-center sm:space-y-0">
+                <div className="px-24 sm:px-8">
                     <a href="https://helloele.com/">
-                        <img src="images/HelloEleLogo.png" alt="" className="h-10 shadow-xl w-36"/>
+                        <img src="images/HelloEleLogo.png" alt="" className="h-10 shadow-xl w-36" />
                     </a>
                 </div>
-                <div className="px-24">
+                <div className="px-24 sm:px-8">
                     <a href="https://tinyfunction.com/">
-                        <img src="images/TinyFunctionLogo.png" alt="" className="h-10 shadow-xl w-36"/>
+                        <img src="images/TinyFunctionLogo.png" alt="" className="h-10 shadow-xl w-36" />
                     </a>
                 </div>
             </div>
-            
+
         </div>
     )
 }
